@@ -1,0 +1,310 @@
+Transaction ID,Date,Time,Branch,Item,Category,Quantity,Price,Payment Method,Customer ID,Loyalty Member,Temp (°C)
+T001,2025-05-16,10:48:10,A,Bagel,Bakery,1,200.0,Online,C117,Yes,28.3
+T002,2025-04-26,19:29:13,A,Croissant,Bakery,3,230.0,Card,C102,Yes,26.4
+T003,2025-03-09,03:32:20,A,Croissant,Bakery,3,230.0,Online,C144,No,28.3
+T004,2025-05-06,08:20:16,A,Iced Latte,Beverage,3,180.0,Card,C121,No,27.3
+T005,2025-03-14,22:34:38,B,Iced Latte,Beverage,1,180.0,Card,C122,No,37.1
+T006,2025-05-06,19:24:06,A,Blueberry Muffin,Bakery,3,250.0,Card,C140,No,33.7
+T006,2025-05-06,19:24:06,A,Blueberry Muffin,Bakery,3,250.0,Card,C140,No,33.7
+T007,2025-05-14,03:58:30,B,Cappuccino,Beverage,1,160.0,Cash,C106,No,29.2
+T008,2025-05-14,09:30:20,B,Espresso,Beverage,1,150.0,Online,C117,Yes,34.1
+T009,2025-04-18,00:02:36,B,Cappuccino,Beverage,2,160.0,Card,C140,Yes,35.3
+T010,2025-03-21,19:37:12,A,Cappuccino,Beverage,2,160.0,Card,C117,Yes,28.2
+T011,2025-05-04,14:57:51,A,Espresso,Beverage,3,150.0,Card,C125,No,27.1
+T012,2025-05-14,22:28:23,B,Croissant,Bakery,3,230.0,Online,C127,No,30.4
+T013,2025-04-22,22:33:01,A,Blueberry Muffin,Bakery,1,250.0,Cash,C109,Yes,36.9
+T014,2025-04-30,14:51:11,C,Blueberry Muffin,Bakery,2,250.0,Online,C116,Yes,35.2
+T015,2025-04-17,02:18:02,C,Espresso,Beverage,2,,Cash,C118,No,27.4
+T016,2025-05-24,16:52:10,B,Bagel,Bakery,3,200.0,Cash,C132,Yes,38.1
+T017,2025-05-16,20:25:22,A,Croissant,Bakery,1,230.0,Card,C148,Yes,33.1
+T018,2025-05-14,16:26:45,C,Iced Latte,Beverage,2,180.0,Card,C101,Yes,38.9
+T019,2025-04-22,07:22:37,A,Espresso,Beverage,1,150.0,Cash,C136,Yes,26.3
+T020,2025-03-09,12:58:06,A,Croissant,Bakery,1,230.0,Online,C130,Yes,29.0
+T021,2025-03-20,14:37:14,C,Cappuccino,Beverage,3,160.0,Online,C112,No,31.0
+T022,2025-04-21,06:20:12,B,Croissant,Bakery,1,230.0,Cash,C114,Yes,30.1
+T023,2025-04-17,11:54:29,A,Cappuccino,Beverage,1,160.0,Online,C140,Yes,28.4
+T024,2025-04-05,20:20:51,C,Iced Latte,Beverage,1,180.0,Card,C142,No,28.2
+T025,2025-04-30,19:54:03,C,Croissant,Bakery,2,230.0,Cash,C150,No,37.1
+T026,2025-05-25,15:33:33,B,Blueberry Muffin,Bakery,2,250.0,Card,C129,Yes,35.1
+T027,2025-03-23,15:27:58,C,Blueberry Muffin,Bakery,2,250.0,Cash,C115,Yes,27.9
+T028,2025-05-11,00:29:40,B,Espresso,Beverage,1,150.0,Cash,C128,Yes,25.8
+T029,2025-03-11,18:18:16,A,Iced Latte,Beverage,1,180.0,Card,C131,No,28.2
+T030,2025-05-18,22:31:50,A,Blueberry Muffin,Bakery,2,250.0,Card,C150,No,29.3
+T031,2025-03-25,14:38:14,C,Croissant,Bakery,3,230.0,Card,C109,Yes,29.5
+T032,2025-04-04,22:48:42,A,Croissant,Bakery,3,230.0,Card,C103,Yes,33.8
+T033,2025-03-02,12:33:49,A,Cappuccino,Beverage,3,160.0,Cash,C111,Yes,33.9
+T034,2025-04-29,10:14:21,C,Iced Latte,Beverage,1,180.0,Online,C138,Yes,34.3
+T035,2025-03-09,07:22:02,B,Croissant,Bakery,2,230.0,Cash,C142,No,28.6
+T036,2025-04-18,10:19:19,B,Espresso,Beverage,2,150.0,Cash,C100,No,34.3
+T037,2025-03-19,04:10:05,A,Croissant,Bakery,3,230.0,Card,C108,No,38.2
+T038,2025-03-24,01:24:15,B,Cappuccino,Beverage,3,160.0,Online,C119,Yes,35.0
+T039,2025-04-04,09:43:15,A,Iced Latte,Beverage,2,180.0,Cash,C106,Yes,29.1
+T040,2025-05-17,10:24:55,C,Cappuccino,Beverage,3,160.0,Card,C132,No,28.8
+T041,2025-04-24,01:46:38,B,Bagel,Bakery,2,200.0,Cash,C100,No,36.6
+T042,2025-03-02,02:18:05,B,Bagel,Bakery,3,200.0,Online,C127,Yes,26.7
+T043,2025-03-06,03:58:54,C,Cappuccino,Beverage,1,160.0,Card,C137,Yes,31.4
+T044,2025-05-14,17:24:05,B,Iced Latte,Beverage,1,180.0,Online,C115,Yes,30.3
+T045,2025-04-13,13:28:46,C,Croissant,Bakery,1,,Cash,C110,Yes,38.2
+T046,2025-05-03,16:05:10,B,Espresso,Beverage,3,150.0,Online,C115,No,27.4
+T047,2025-05-25,23:51:29,B,Iced Latte,Beverage,1,180.0,Cash,C129,No,29.6
+T048,2025-05-21,21:57:35,C,Iced Latte,Beverage,1,180.0,Card,C121,No,38.0
+T049,2025-03-16,18:18:26,C,Bagel,Bakery,2,200.0,Online,C134,No,39.1
+T050,2025-05-07,16:35:22,C,Cappuccino,Beverage,2,160.0,Cash,C106,No,30.2
+T051,2025-03-20,23:45:25,A,Croissant,Bakery,2,230.0,Online,C112,No,25.7
+T052,2025-05-05,12:25:56,C,Croissant,Bakery,3,230.0,Online,C147,Yes,30.5
+T053,2025-04-04,10:43:13,C,Espresso,Beverage,2,150.0,Online,C107,No,32.6
+T054,2025-03-22,19:57:46,B,Bagel,Bakery,3,200.0,Cash,C112,No,35.0
+T055,2025-05-19,23:09:17,C,Cappuccino,Beverage,3,160.0,Card,C125,Yes,29.6
+T056,2025-04-10,16:58:36,C,Croissant,Bakery,2,230.0,Card,C128,No,35.1
+T057,2025-05-03,01:12:08,A,Bagel,Bakery,3,200.0,Cash,C118,No,26.4
+T058,2025-03-31,01:04:34,A,Espresso,Beverage,1,150.0,Cash,C101,Yes,28.7
+T059,2025-05-16,13:30:50,B,Iced Latte,Beverage,2,180.0,Online,C136,Yes,35.8
+T060,2025-03-29,11:02:00,C,Cappuccino,Beverage,3,160.0,Cash,C148,Yes,36.7
+T061,2025-04-14,04:17:14,C,Bagel,Bakery,2,200.0,Cash,C135,Yes,38.8
+T062,2025-03-24,06:05:21,C,Blueberry Muffin,Bakery,3,250.0,Online,C138,No,39.3
+T063,2025-04-28,14:20:54,C,Bagel,Bakery,2,200.0,Online,C128,Yes,36.2
+T064,2025-04-26,03:40:02,C,Cappuccino,Beverage,2,160.0,Online,C131,Yes,29.1
+T065,2025-03-05,12:44:55,B,Espresso,Beverage,2,150.0,Online,C105,Yes,27.3
+T066,2025-05-23,17:13:13,A,Cappuccino,Beverage,2,160.0,Card,C121,No,31.2
+T067,2025-05-11,10:06:30,C,Croissant,Bakery,1,230.0,Online,C124,No,25.1
+T068,2025-03-15,18:52:21,C,Blueberry Muffin,Bakery,3,250.0,Online,C134,Yes,32.3
+T069,2025-03-26,01:50:37,B,Blueberry Muffin,Bakery,3,250.0,Online,C125,Yes,37.6
+T070,2025-04-23,15:28:11,A,Croissant,Bakery,2,230.0,Online,C136,Yes,26.3
+T071,2025-05-13,06:27:05,A,Cappuccino,Beverage,2,160.0,Card,C120,Yes,31.8
+T072,2025-03-28,13:32:50,B,Espresso,Beverage,2,150.0,Cash,C130,Yes,36.2
+T073,2025-05-16,18:31:36,C,Cappuccino,Beverage,1,160.0,Online,C102,Yes,39.2
+T073,2025-05-16,18:31:36,C,Cappuccino,Beverage,1,160.0,Online,C102,Yes,39.2
+T074,2025-05-13,23:15:53,A,Cappuccino,Beverage,1,160.0,Card,C142,Yes,33.5
+T075,2025-03-25,04:36:35,A,Espresso,Beverage,3,150.0,Online,C147,Yes,36.7
+T076,2025-03-14,12:50:32,A,Croissant,Bakery,2,230.0,Online,C143,No,30.9
+T077,2025-03-16,05:19:46,C,Bagel,Bakery,1,200.0,Cash,C144,No,37.8
+T078,2025-04-18,07:29:38,A,Croissant,Bakery,2,230.0,Online,C127,No,26.0
+T078,2025-04-18,07:29:38,A,Croissant,Bakery,2,230.0,Online,C127,No,26.0
+T079,2025-04-28,17:48:02,B,Blueberry Muffin,Bakery,1,250.0,Card,C123,No,35.6
+T080,2025-05-23,17:55:21,B,Bagel,Bakery,3,200.0,Online,C149,No,32.0
+T081,2025-04-04,13:45:32,A,Espresso,Beverage,1,150.0,Card,C128,Yes,36.3
+T082,2025-03-02,12:19:20,A,Espresso,Beverage,2,150.0,Card,C111,No,28.2
+T083,2025-05-07,23:00:20,C,Croissant,Bakery,2,230.0,Online,C100,Yes,26.3
+T084,2025-03-03,08:54:28,C,Cappuccino,Beverage,2,,Online,C145,No,31.7
+T085,2025-03-27,05:37:27,C,Blueberry Muffin,Bakery,1,250.0,Card,C142,No,32.1
+T086,2025-04-26,01:53:44,C,Bagel,Bakery,2,200.0,Card,C144,No,29.1
+T087,2025-05-17,03:46:40,B,Cappuccino,Beverage,1,160.0,Online,C134,Yes,27.9
+T088,2025-04-05,06:57:24,C,Croissant,Bakery,3,230.0,Card,C106,Yes,29.4
+T089,2025-05-23,08:42:01,C,Bagel,Bakery,1,200.0,Card,C102,Yes,33.3
+T090,2025-03-31,02:38:39,A,Blueberry Muffin,Bakery,1,250.0,Online,C118,No,32.2
+T091,2025-04-09,16:18:12,B,Espresso,Beverage,1,150.0,Cash,C125,No,26.1
+T092,2025-03-04,12:52:00,C,Cappuccino,Beverage,2,160.0,Cash,C115,Yes,33.4
+T093,2025-05-27,19:42:30,A,Croissant,Bakery,3,230.0,Card,C128,No,29.5
+T094,2025-04-16,05:53:31,C,Croissant,Bakery,1,230.0,Online,C147,Yes,39.2
+T095,2025-05-03,18:41:08,A,Bagel,Bakery,1,200.0,Cash,C111,Yes,27.3
+T096,2025-05-07,19:59:31,B,Blueberry Muffin,Bakery,1,250.0,Cash,C118,No,35.5
+T097,2025-04-07,09:51:57,C,Espresso,Beverage,3,150.0,Online,C112,No,26.7
+T098,2025-03-12,22:49:23,A,Espresso,Beverage,1,150.0,Cash,C110,No,33.9
+T099,2025-05-25,08:54:03,A,Blueberry Muffin,Bakery,2,250.0,Online,C119,No,39.1
+T100,2025-03-05,10:05:25,C,Iced Latte,Beverage,1,,Card,C147,No,34.1
+T101,2025-04-25,06:38:53,C,Bagel,Bakery,3,200.0,Cash,C148,No,33.6
+T102,2025-03-02,17:57:02,C,Croissant,Bakery,2,230.0,Card,C111,No,34.5
+T103,2025-05-20,00:58:16,B,Espresso,Beverage,2,150.0,Card,C142,Yes,37.9
+T104,2025-03-26,11:00:30,C,Espresso,Beverage,2,150.0,Online,C102,No,26.3
+T105,2025-04-24,03:25:36,C,Blueberry Muffin,Bakery,1,250.0,Online,C134,No,31.2
+T106,2025-04-23,02:20:39,C,Blueberry Muffin,Bakery,2,250.0,Cash,C113,No,33.2
+T107,2025-03-18,21:18:50,B,Bagel,Bakery,1,200.0,Cash,C140,Yes,35.6
+T107,2025-03-18,21:18:50,B,Bagel,Bakery,1,200.0,Cash,C140,Yes,35.6
+T108,2025-04-30,16:21:29,A,Blueberry Muffin,Bakery,1,250.0,Cash,C129,Yes,34.7
+T109,2025-03-23,14:36:52,C,Espresso,Beverage,3,150.0,Card,C126,No,39.7
+T110,2025-04-14,07:24:17,A,Blueberry Muffin,Bakery,3,250.0,Online,C147,Yes,38.0
+T111,2025-05-03,20:35:17,B,Blueberry Muffin,Bakery,3,250.0,Card,C100,No,35.9
+T112,2025-03-22,14:34:36,B,Bagel,Bakery,1,200.0,Card,C134,No,30.2
+T113,2025-03-18,07:15:22,B,Blueberry Muffin,Bakery,1,250.0,Online,C115,No,28.5
+T113,2025-03-18,07:15:22,B,Blueberry Muffin,Bakery,1,250.0,Online,C115,No,28.5
+T114,2025-03-16,19:26:16,B,Bagel,Bakery,3,200.0,Card,C124,Yes,32.4
+T115,2025-05-24,23:44:40,B,Croissant,Bakery,1,230.0,Card,C106,No,25.2
+T116,2025-04-01,21:01:56,A,Cappuccino,Beverage,2,160.0,Card,C121,No,34.7
+T117,2025-03-30,19:23:42,B,Croissant,Bakery,2,230.0,Online,C145,No,38.1
+T118,2025-04-29,11:56:59,C,Bagel,Bakery,2,200.0,Cash,C147,Yes,31.5
+T119,2025-05-03,21:00:52,B,Iced Latte,Beverage,1,180.0,Online,C119,Yes,25.7
+T120,2025-05-05,18:50:47,B,Espresso,Beverage,1,150.0,Cash,C133,No,33.5
+T121,2025-05-07,21:55:45,C,Iced Latte,Beverage,2,180.0,Online,C143,Yes,32.5
+T122,2025-03-04,01:18:20,B,Bagel,Bakery,2,200.0,Card,C142,Yes,38.5
+T123,2025-03-08,04:13:54,A,Croissant,Bakery,1,230.0,Card,C122,No,34.6
+T124,2025-03-23,14:38:56,A,Espresso,Beverage,2,150.0,Card,C106,Yes,30.7
+T125,2025-05-02,14:08:34,B,Bagel,Bakery,1,200.0,Online,C125,No,25.1
+T126,2025-05-14,16:12:16,C,Iced Latte,Beverage,3,180.0,Card,C118,Yes,34.1
+T127,2025-04-05,08:39:27,B,Croissant,Bakery,3,230.0,Online,C149,Yes,34.4
+T128,2025-03-23,06:12:23,B,Espresso,Beverage,1,150.0,Online,C123,Yes,26.4
+T129,2025-04-11,14:38:24,A,Cappuccino,Beverage,1,160.0,Online,C123,No,37.5
+T130,2025-03-22,13:35:17,B,Blueberry Muffin,Bakery,3,250.0,Card,C107,No,39.4
+T131,2025-05-05,20:50:17,C,Bagel,Bakery,3,200.0,Card,C135,No,26.4
+T132,2025-05-28,11:38:50,B,Iced Latte,Beverage,2,180.0,Online,C147,No,33.8
+T133,2025-04-21,22:47:56,C,Iced Latte,Beverage,1,180.0,Card,C101,No,38.7
+T134,2025-04-16,05:46:51,C,Blueberry Muffin,Bakery,2,250.0,Online,C126,Yes,27.1
+T135,2025-03-25,05:56:08,A,Blueberry Muffin,Bakery,1,250.0,Cash,C134,Yes,30.8
+T136,2025-03-07,14:24:59,C,Bagel,Bakery,2,200.0,Online,C147,Yes,38.3
+T137,2025-03-31,02:08:24,B,Croissant,Bakery,2,230.0,Cash,C144,No,28.3
+T138,2025-05-08,16:57:01,A,Espresso,Beverage,3,150.0,Card,C134,No,25.9
+T139,2025-04-17,22:30:00,A,Blueberry Muffin,Bakery,3,250.0,Cash,C141,Yes,25.8
+T140,2025-03-22,03:59:43,A,Croissant,Bakery,1,230.0,Online,C113,Yes,37.2
+T141,2025-05-28,20:54:29,A,Croissant,Bakery,2,230.0,Cash,C108,No,37.0
+T142,2025-05-10,00:43:03,A,Cappuccino,Beverage,2,160.0,Cash,C137,No,25.2
+T143,2025-05-09,00:30:39,C,Blueberry Muffin,Bakery,1,250.0,Online,C104,No,31.7
+T144,2025-04-01,08:46:57,C,Blueberry Muffin,Bakery,1,250.0,Online,C102,No,31.9
+T145,2025-02-28,03:06:41,B,Blueberry Muffin,Bakery,2,250.0,Online,C106,No,35.7
+T146,2025-04-10,21:42:48,C,Espresso,Beverage,1,150.0,Cash,C108,No,34.4
+T147,2025-05-23,12:44:39,C,Blueberry Muffin,Bakery,3,250.0,Card,C129,No,26.5
+T148,2025-04-08,02:30:38,C,Bagel,Bakery,3,200.0,Cash,C127,No,38.3
+T149,2025-03-03,03:40:13,B,Blueberry Muffin,Bakery,3,250.0,Cash,C120,No,29.7
+T150,2025-04-11,17:44:50,B,Bagel,Bakery,1,200.0,Cash,C105,Yes,31.5
+T151,2025-05-17,07:10:21,C,Cappuccino,Beverage,1,160.0,Online,C135,No,35.1
+T152,2025-03-08,14:43:07,C,Blueberry Muffin,Bakery,1,250.0,Card,C138,No,30.3
+T153,2025-05-12,22:54:36,B,Bagel,Bakery,1,200.0,Cash,C122,No,26.7
+T154,2025-04-24,06:58:13,C,Blueberry Muffin,Bakery,3,250.0,Online,C143,Yes,34.1
+T155,2025-04-18,14:30:44,A,Iced Latte,Beverage,2,180.0,Online,C148,No,38.8
+T156,2025-05-06,13:00:43,C,Cappuccino,Beverage,3,160.0,Card,C104,Yes,36.1
+T157,2025-05-19,10:48:39,A,Croissant,Bakery,2,230.0,Card,C129,No,27.4
+T158,2025-05-24,18:49:44,C,Croissant,Bakery,1,230.0,Cash,C109,Yes,36.3
+T159,2025-04-23,14:26:41,C,Blueberry Muffin,Bakery,2,250.0,Card,C138,No,31.2
+T160,2025-05-26,00:49:35,B,Espresso,Beverage,1,150.0,Card,C143,No,32.9
+T161,2025-03-02,15:53:44,A,Croissant,Bakery,1,230.0,Cash,C119,Yes,36.5
+T162,2025-05-07,21:32:21,A,Iced Latte,Beverage,2,180.0,Online,C127,Yes,26.9
+T163,2025-03-18,21:26:46,C,Croissant,Bakery,2,230.0,Cash,C125,Yes,31.5
+T164,2025-04-26,05:49:51,C,Espresso,Beverage,2,150.0,Online,C125,No,29.3
+T165,2025-03-30,00:19:35,C,Cappuccino,Beverage,2,160.0,Online,C123,Yes,31.6
+T166,2025-03-31,01:05:02,C,Blueberry Muffin,Bakery,1,250.0,Card,C119,No,28.3
+T167,2025-04-06,17:51:14,A,Bagel,Bakery,3,200.0,Online,C112,No,30.3
+T168,2025-05-20,20:31:47,A,Cappuccino,Beverage,1,160.0,Cash,C116,Yes,27.6
+T169,2025-05-21,01:35:35,A,Iced Latte,Beverage,3,180.0,Card,C129,No,35.2
+T170,2025-04-11,21:50:31,B,Croissant,Bakery,3,230.0,Card,C109,No,26.0
+T171,2025-05-07,03:22:22,C,Espresso,Beverage,1,150.0,Card,C132,Yes,29.7
+T172,2025-05-03,15:23:17,A,Espresso,Beverage,3,150.0,Cash,C139,No,31.9
+T173,2025-04-19,10:25:39,B,Iced Latte,Beverage,3,180.0,Online,C112,No,34.1
+T174,2025-03-13,00:22:09,A,Blueberry Muffin,Bakery,2,250.0,Online,C105,Yes,25.6
+T175,2025-03-26,02:31:35,C,Croissant,Bakery,3,230.0,Cash,C123,No,38.8
+T176,2025-05-16,00:37:54,C,Bagel,Bakery,1,200.0,Online,C141,No,26.0
+T177,2025-05-13,23:02:17,B,Espresso,Beverage,3,150.0,Online,C138,Yes,30.0
+T178,2025-05-11,18:23:52,B,Espresso,Beverage,3,150.0,Online,C142,No,26.9
+T179,2025-03-07,19:10:37,B,Croissant,Bakery,3,230.0,Card,C108,Yes,34.7
+T180,2025-03-06,08:56:41,B,Espresso,Beverage,1,150.0,Cash,C121,No,27.9
+T181,2025-05-13,22:22:46,A,Espresso,Beverage,3,150.0,Online,C147,Yes,34.9
+T182,2025-03-26,08:02:23,B,Croissant,Bakery,1,230.0,Cash,C111,Yes,35.8
+T183,2025-03-20,17:59:19,A,Bagel,Bakery,2,200.0,Online,C118,No,28.5
+T184,2025-03-23,20:08:21,A,Blueberry Muffin,Bakery,2,250.0,Online,C136,No,31.9
+T185,2025-05-01,17:32:18,B,Croissant,Bakery,1,230.0,Cash,C138,Yes,38.1
+T186,2025-05-11,07:25:59,C,Espresso,Beverage,1,150.0,Online,C133,Yes,29.3
+T187,2025-04-14,08:00:44,A,Croissant,Bakery,2,230.0,Cash,C114,No,38.3
+T188,2025-04-14,00:15:32,C,Blueberry Muffin,Bakery,2,,Cash,C124,Yes,30.6
+T189,2025-03-02,13:52:55,C,Bagel,Bakery,2,200.0,Cash,C108,Yes,29.3
+T190,2025-03-13,05:37:19,C,Cappuccino,Beverage,2,,Card,C139,Yes,38.6
+T191,2025-04-10,07:28:43,C,Cappuccino,Beverage,3,160.0,Online,C133,No,26.7
+T192,2025-03-20,02:38:33,A,Iced Latte,Beverage,2,180.0,Online,C150,No,25.9
+T193,2025-05-17,11:13:19,A,Croissant,Bakery,3,230.0,Online,C136,Yes,35.8
+T193,2025-05-17,11:13:19,A,Croissant,Bakery,3,230.0,Online,C136,Yes,35.8
+T194,2025-03-12,08:43:48,A,Espresso,Beverage,3,150.0,Card,C111,Yes,32.9
+T195,2025-05-16,11:35:17,C,Croissant,Bakery,3,230.0,Online,C101,No,38.1
+T196,2025-05-06,13:48:18,B,Espresso,Beverage,3,150.0,Cash,C122,Yes,30.2
+T197,2025-03-23,22:28:53,C,Croissant,Bakery,2,230.0,Cash,C102,No,33.2
+T198,2025-03-14,19:14:24,B,Bagel,Bakery,3,200.0,Card,C140,Yes,37.2
+T199,2025-03-08,09:46:13,A,Blueberry Muffin,Bakery,2,250.0,Cash,C102,Yes,38.3
+T200,2025-03-19,16:13:18,C,Blueberry Muffin,Bakery,2,250.0,Card,C102,Yes,29.3
+T200,2025-03-19,16:13:18,C,Blueberry Muffin,Bakery,2,250.0,Card,C102,Yes,29.3
+T201,2025-03-07,23:12:01,B,Bagel,Bakery,2,200.0,Cash,C123,No,38.3
+T202,2025-04-05,17:01:49,B,Blueberry Muffin,Bakery,1,250.0,Card,C144,No,30.5
+T203,2025-05-17,20:42:47,C,Iced Latte,Beverage,2,180.0,Cash,C127,Yes,33.2
+T204,2025-04-28,03:46:47,B,Bagel,Bakery,2,200.0,Card,C138,No,27.5
+T205,2025-05-16,03:13:17,B,Bagel,Bakery,3,200.0,Card,C117,Yes,26.1
+T206,2025-03-27,14:16:43,C,Bagel,Bakery,1,200.0,Cash,C109,No,25.5
+T207,2025-05-26,17:15:24,B,Espresso,Beverage,2,150.0,Online,C102,Yes,35.2
+T208,2025-05-26,15:56:20,C,Iced Latte,Beverage,1,180.0,Online,C123,No,29.7
+T209,2025-03-28,14:52:16,C,Iced Latte,Beverage,1,180.0,Card,C133,No,38.7
+T210,2025-04-16,04:45:22,B,Bagel,Bakery,1,200.0,Online,C118,No,28.0
+T211,2025-04-20,13:03:08,C,Cappuccino,Beverage,2,160.0,Cash,C143,No,35.0
+T212,2025-04-09,09:17:55,B,Espresso,Beverage,1,150.0,Online,C145,Yes,36.9
+T213,2025-05-11,01:51:23,A,Cappuccino,Beverage,1,160.0,Card,C101,No,33.3
+T214,2025-04-10,08:56:14,A,Croissant,Bakery,3,230.0,Cash,C104,No,31.0
+T215,2025-03-28,05:09:10,B,Blueberry Muffin,Bakery,3,250.0,Cash,C108,No,34.6
+T216,2025-03-12,14:46:07,A,Espresso,Beverage,3,150.0,Online,C137,Yes,36.5
+T217,2025-03-24,20:17:46,A,Iced Latte,Beverage,3,180.0,Cash,C119,Yes,27.4
+T218,2025-03-18,20:37:12,B,Croissant,Bakery,1,230.0,Card,C112,No,26.9
+T219,2025-02-28,09:10:41,C,Croissant,Bakery,1,230.0,Online,C137,Yes,27.6
+T220,2025-03-03,01:16:25,C,Espresso,Beverage,1,150.0,Cash,C105,Yes,39.2
+T221,2025-03-21,07:19:40,C,Cappuccino,Beverage,2,160.0,Online,C140,Yes,32.5
+T222,2025-03-03,12:31:00,B,Espresso,Beverage,1,150.0,Online,C125,No,31.8
+T223,2025-04-23,10:26:02,B,Blueberry Muffin,Bakery,2,250.0,Cash,C121,Yes,29.7
+T224,2025-04-02,17:29:42,B,Espresso,Beverage,1,150.0,Card,C132,Yes,29.8
+T225,2025-05-15,05:01:40,A,Cappuccino,Beverage,1,160.0,Cash,C118,No,38.0
+T226,2025-03-28,04:13:55,B,Cappuccino,Beverage,3,160.0,Online,C120,Yes,36.4
+T227,2025-03-05,09:07:31,B,Blueberry Muffin,Bakery,2,250.0,Cash,C105,No,32.6
+T228,2025-05-09,03:15:53,A,Espresso,Beverage,1,,Card,C131,No,29.3
+T229,2025-03-08,20:16:34,B,Cappuccino,Beverage,3,160.0,Card,C148,No,30.5
+T230,2025-04-09,23:20:01,B,Cappuccino,Beverage,3,160.0,Card,C104,No,32.6
+T231,2025-04-25,15:44:19,C,Croissant,Bakery,3,230.0,Cash,C108,Yes,30.9
+T232,2025-05-05,00:42:05,A,Espresso,Beverage,1,150.0,Online,C132,No,32.5
+T233,2025-02-28,02:45:27,B,Espresso,Beverage,3,150.0,Card,C109,Yes,29.9
+T234,2025-03-26,19:22:23,C,Croissant,Bakery,2,230.0,Online,C121,No,35.6
+T235,2025-05-07,16:41:08,B,Espresso,Beverage,3,150.0,Cash,C126,No,37.0
+T236,2025-03-11,15:32:01,C,Iced Latte,Beverage,2,180.0,Card,C141,Yes,35.8
+T237,2025-05-22,09:16:25,C,Bagel,Bakery,3,200.0,Card,C109,Yes,25.5
+T238,2025-04-13,14:03:29,B,Iced Latte,Beverage,2,180.0,Card,C109,No,35.4
+T239,2025-04-14,23:47:06,C,Blueberry Muffin,Bakery,3,250.0,Cash,C145,Yes,32.8
+T240,2025-05-09,12:33:09,C,Blueberry Muffin,Bakery,2,250.0,Card,C111,No,38.7
+T241,2025-04-27,18:00:21,C,Bagel,Bakery,3,200.0,Online,C116,No,27.9
+T242,2025-05-06,02:27:23,B,Cappuccino,Beverage,2,160.0,Online,C113,No,29.8
+T243,2025-03-30,09:36:48,B,Bagel,Bakery,2,200.0,Cash,C136,No,38.4
+T244,2025-04-26,12:39:54,B,Cappuccino,Beverage,1,160.0,Card,C145,Yes,30.2
+T245,2025-03-30,05:06:41,A,Blueberry Muffin,Bakery,1,250.0,Online,C117,No,27.1
+T246,2025-05-06,13:49:21,A,Cappuccino,Beverage,3,160.0,Online,C114,Yes,25.8
+T247,2025-04-08,06:43:55,C,Iced Latte,Beverage,1,180.0,Cash,C135,Yes,31.1
+T248,2025-04-17,21:35:18,C,Blueberry Muffin,Bakery,1,250.0,Card,C120,No,34.7
+T249,2025-03-12,01:05:56,A,Croissant,Bakery,3,230.0,Online,C146,Yes,38.7
+T250,2025-05-16,19:31:27,A,Cappuccino,Beverage,2,,Card,C111,No,38.2
+T251,2025-04-04,07:42:31,B,Iced Latte,Beverage,2,180.0,Card,C141,No,38.3
+T252,2025-05-04,14:52:00,A,Espresso,Beverage,1,150.0,Card,C110,No,34.7
+T252,2025-05-04,14:52:00,A,Espresso,Beverage,1,150.0,Card,C110,No,34.7
+T253,2025-05-16,12:29:07,B,Espresso,Beverage,3,150.0,Online,C148,Yes,27.6
+T254,2025-05-04,13:04:04,C,Blueberry Muffin,Bakery,2,250.0,Cash,C125,Yes,27.8
+T255,2025-05-02,13:03:57,A,Cappuccino,Beverage,2,160.0,Card,C115,No,36.3
+T256,2025-05-11,22:33:18,C,Bagel,Bakery,1,200.0,Card,C141,No,35.4
+T257,2025-03-27,17:56:02,A,Espresso,Beverage,2,150.0,Online,C132,No,35.4
+T258,2025-04-23,04:34:25,C,Espresso,Beverage,1,150.0,Cash,C108,No,27.3
+T259,2025-04-13,03:45:27,C,Blueberry Muffin,Bakery,3,250.0,Card,C148,Yes,36.4
+T260,2025-04-08,22:58:54,C,Iced Latte,Beverage,2,180.0,Online,C145,No,26.2
+T261,2025-03-17,15:48:50,C,Croissant,Bakery,1,230.0,Online,C134,Yes,27.5
+T262,2025-05-16,06:31:09,A,Bagel,Bakery,3,200.0,Online,C131,Yes,38.5
+T263,2025-03-08,01:16:20,C,Cappuccino,Beverage,2,160.0,Card,C136,Yes,33.4
+T264,2025-05-02,03:32:43,B,Iced Latte,Beverage,2,180.0,Cash,C147,Yes,33.7
+T265,2025-03-20,16:10:44,C,Iced Latte,Beverage,1,180.0,Cash,C130,Yes,29.3
+T266,2025-04-05,20:07:29,C,Bagel,Bakery,3,200.0,Card,C123,No,31.7
+T267,2025-05-16,05:44:32,C,Iced Latte,Beverage,3,180.0,Online,C108,No,26.8
+T268,2025-03-09,20:52:45,C,Cappuccino,Beverage,1,160.0,Cash,C148,Yes,39.7
+T269,2025-04-18,23:32:35,C,Blueberry Muffin,Bakery,2,250.0,Cash,C115,No,30.2
+T270,2025-04-12,18:42:43,A,Bagel,Bakery,1,200.0,Online,C126,Yes,28.6
+T271,2025-05-27,06:16:55,C,Blueberry Muffin,Bakery,3,250.0,Online,C103,Yes,36.1
+T272,2025-04-22,17:20:51,A,Cappuccino,Beverage,1,160.0,Online,C118,Yes,37.2
+T273,2025-03-16,22:43:16,C,Croissant,Bakery,2,230.0,Cash,C119,Yes,39.8
+T274,2025-05-07,06:29:15,A,Espresso,Beverage,3,150.0,Online,C147,Yes,34.4
+T275,2025-03-29,02:19:46,C,Espresso,Beverage,3,150.0,Card,C150,No,35.4
+T276,2025-05-27,00:34:53,C,Cappuccino,Beverage,2,160.0,Cash,C114,No,37.9
+T277,2025-03-12,00:07:46,C,Iced Latte,Beverage,2,180.0,Card,C135,Yes,30.8
+T278,2025-04-17,20:44:13,B,Iced Latte,Beverage,2,180.0,Cash,C134,Yes,25.8
+T279,2025-03-01,04:27:10,A,Iced Latte,Beverage,1,180.0,Online,C146,Yes,32.2
+T280,2025-04-09,00:10:13,A,Iced Latte,Beverage,1,180.0,Online,C107,No,38.7
+T281,2025-05-14,05:25:28,A,Blueberry Muffin,Bakery,3,250.0,Card,C149,No,30.7
+T282,2025-05-04,03:16:55,B,Espresso,Beverage,3,150.0,Card,C129,Yes,37.0
+T283,2025-03-10,10:49:01,A,Espresso,Beverage,2,150.0,Card,C126,Yes,33.4
+T284,2025-03-12,03:17:25,C,Espresso,Beverage,3,150.0,Online,C146,No,29.4
+T285,2025-04-14,20:02:43,A,Croissant,Bakery,2,230.0,Online,C141,No,28.9
+T286,2025-04-25,22:20:10,C,Bagel,Bakery,2,200.0,Card,C110,No,27.5
+T287,2025-03-06,16:50:56,C,Croissant,Bakery,1,230.0,Online,C102,Yes,39.2
+T288,2025-04-18,15:38:02,A,Blueberry Muffin,Bakery,3,250.0,Cash,C104,Yes,25.1
+T289,2025-05-01,07:40:30,C,Croissant,Bakery,3,230.0,Online,C130,No,25.2
+T290,2025-03-28,14:43:05,C,Iced Latte,Beverage,3,180.0,Card,C134,No,25.3
+T291,2025-05-11,02:49:52,A,Cappuccino,Beverage,1,160.0,Online,C109,Yes,27.9
+T292,2025-03-24,23:12:33,B,Espresso,Beverage,1,150.0,Card,C125,No,33.5
+T293,2025-05-05,10:58:46,A,Bagel,Bakery,3,200.0,Online,C148,Yes,26.4
+T294,2025-03-19,14:16:02,C,Iced Latte,Beverage,1,180.0,Online,C110,Yes,32.5
+T295,2025-03-09,17:37:07,A,Croissant,Bakery,3,230.0,Cash,C114,Yes,38.5
+T296,2025-05-28,08:14:55,A,Espresso,Beverage,1,150.0,Online,C117,Yes,27.7
+T296,2025-05-28,08:14:55,A,Espresso,Beverage,1,150.0,Online,C117,Yes,27.7
+T297,2025-04-05,05:03:21,C,Cappuccino,Beverage,1,160.0,Online,C125,Yes,29.5
+T298,2025-03-20,05:40:23,C,Blueberry Muffin,Bakery,3,250.0,Card,C124,Yes,36.9
+T299,2025-05-11,00:44:46,B,Bagel,Bakery,1,200.0,Cash,C127,Yes,37.6
+T300,2025-04-03,17:55:19,B,Croissant,Bakery,2,230.0,Cash,C140,No,36.8
