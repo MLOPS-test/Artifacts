@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Capabilities in GenAI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .presentation-container {
+            width: 90%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .slide {
+            display: none;
+            padding: 60px;
+            min-height: 700px;
+            position: relative;
+        }
+
+        .slide.active {
+            display: block;
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .slide h1 {
+            font-size: 3em;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .slide h2 {
+            font-size: 2.2em;
+            color: #34495e;
+            margin-bottom: 25px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .slide h3 {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin: 20px 0 15px 0;
+        }
+
+        .slide p, .slide li {
+            font-size: 1.3em;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .slide ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .slide li {
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .slide li::before {
+            content: "→";
+            color: #667eea;
+            font-weight: bold;
+            position: absolute;
+            left: -20px;
+        }
+
+        .capability-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .capability-card {
+            background: linear-gradient(135deg, #f8f9ff, #e8edff);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .capability-card h4 {
+            color: #2c3e50;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .difficulty-box {
+            background: #fff5f5;
+            border: 2px solid #e53e3e;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .difficulty-box h4 {
+            color: #e53e3e;
+            font-size: 1.4em;
+            margin-bottom: 10px;
+        }
+
+        .evolution-timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .evolution-timeline::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: #667eea;
+            z-index: 1;
+        }
+
+        .timeline-item {
+            background: white;
+            border: 3px solid #667eea;
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #667eea;
+            z-index: 2;
+            position: relative;
+        }
+
+        .model-architecture {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .arch-box {
+            background: linear-gradient(135deg, #e8f4f8, #d1ecf1);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #3498db;
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .slide-counter {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 1em;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #f6f8ff 0%, #e8edff 100%);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin: 20px 0;
+        }
+
+        .icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .feature-comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin: 20px 0;
+        }
+
+        .comparison-column h4 {
+            color: #2c3e50;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .can-do {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+        }
+
+        .cannot-do {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .tech-item {
+            text-align: center;
+            padding: 15px;
+            margin: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            min-width: 120px;
+        }
+
+        .multimodal-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .modal-card {
+            background: linear-gradient(135deg, #fff, #f8f9fa);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+            transition: transform 0.3s ease;
+        }
+
+        .modal-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="slide-counter">
+            <span id="currentSlide">1</span> / <span id="totalSlides">15</span>
+        </div>
+
+        <!-- Slide 1: Title -->
+        <div class="slide active">
+            <h1>Model Capabilities in GenAI</h1>
+            <div style="text-align: center; margin: 60px 0;">
+                <h2 style="border: none; color: #667eea;">Understanding What Text-Based Models Can and Can't Do</h2>
+                <p style="font-size: 1.5em; color: #666; margin-top: 40px;">From Traditional ML to Modern Generative AI</p>
+                <div style="margin-top: 60px; font-size: 1.2em; color: #888;">
+                    GenAI Capabilities & Limitations
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: What Can Text Models Do? -->
+        <div class="slide">
+            <h2>Core Capabilities of Text-Based Models</h2>
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>📝 Summarization</h4>
+                    <p>Condensing long documents into key insights, executive summaries, and actionable takeaways.</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🏷️ Classification</h4>
+                    <p>Categorizing content: sentiment analysis, topic classification, spam detection, priority scoring.</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🔍 Information Extraction</h4>
+                    <p>Pulling structured data from unstructured text: names, dates, key metrics, relationships.</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🧠 Logical Reasoning</h4>
+                    <p>Following chains of reasoning, making inferences, and drawing conclusions from given information.</p>
+                </div>
+            </div>
+            <div class="highlight">
+                <p><strong>Business Impact:</strong> These capabilities power customer service automation, document processing, market analysis, and decision support systems.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3: Where Models Struggle -->
+        <div class="slide">
+            <h2>Current Limitations & Challenges</h2>
+            <div class="feature-comparison">
+                <div class="comparison-column">
+                    <h4 class="can-do">✅ Strong Performance</h4>
+                    <ul>
+                        <li>Pattern recognition in text</li>
+                        <li>Language understanding & generation</li>
+                        <li>Context-aware responses</li>
+                        <li>Multi-step reasoning</li>
+                        <li>Code generation & debugging</li>
+                    </ul>
+                </div>
+                <div class="comparison-column">
+                    <h4 class="cannot-do">❌ Key Limitations</h4>
+                    <ul>
+                        <li>Real-time data access</li>
+                        <li>Precise mathematical calculations</li>
+                        <li>Consistent factual accuracy</li>
+                        <li>Understanding of physical world</li>
+                        <li>Long-term memory across sessions</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="difficulty-box">
+                <h4>⚠️ When Models Need Support</h4>
+                <p>Complex calculations, real-time data, specialized domain knowledge, and tasks requiring external verification need tool integration and data pipeline support.</p>
+            </div>
+        </div>
+
+        <!-- Slide 4: Task-Based Difficulties -->
+        <div class="slide">
+            <h2>Task-Based Challenges in Practice</h2>
+            <h3>Classification Challenges</h3>
+            <ul>
+                <li><strong>Spam Filtering:</strong> Evolving spam techniques require continuous model updates</li>
+                <li><strong>Article Classification:</strong> Ambiguous content, multiple categories, context dependency</li>
+                <li><strong>Sentiment Analysis:</strong> Sarcasm, cultural context, domain-specific language</li>
+            </ul>
+            
+            <h3>Clustering & Recommendation Difficulties</h3>
+            <ul>
+                <li><strong>Content Clustering:</strong> Determining optimal number of clusters, handling noise</li>
+                <li><strong>Movie/Product Recommendations:</strong> Cold start problem, preference drift, explainability</li>
+                <li><strong>Customer Segmentation:</strong> Overlapping segments, dynamic behavior patterns</li>
+            </ul>
+
+            <div class="highlight">
+                <p><strong>Key Insight:</strong> Traditional rule-based systems fail with edge cases and evolving patterns. Modern AI adapts but requires careful training and validation.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5: Feature Extraction Evolution -->
+        <div class="slide">
+            <h2>From Text to Numbers: Feature Extraction</h2>
+            <p style="font-size: 1.4em; margin-bottom: 30px;">Models only understand numbers - how do we convert text?</p>
+            
+            <div class="evolution-timeline">
+                <div class="timeline-item">Bags</div>
+                <div class="timeline-item">TF-IDF</div>
+                <div class="timeline-item">N-grams</div>
+                <div class="timeline-item">Embeddings</div>
+            </div>
+
+            <div class="model-architecture">
+                <div class="arch-box">
+                    <h4>Bag of Words</h4>
+                    <p>Simple word counting, loses context and order</p>
+                </div>
+                <div class="arch-box">
+                    <h4>TF-IDF</h4>
+                    <p>Weighs importance by frequency and rarity across documents</p>
+                </div>
+                <div class="arch-box">
+                    <h4>N-grams</h4>
+                    <p>Captures local context through word sequences</p>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Modern Breakthrough:</strong> Dense vector embeddings capture semantic meaning - words with similar meanings have similar number representations.</p>
+            </div>
+        </div>
+
+        <!-- Slide 6: Model Architecture Evolution -->
+        <div class="slide">
+            <h2>Model Architecture Journey</h2>
+            
+            <h3>Traditional Approaches</h3>
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>Naive Bayes</h4>
+                    <p>Probabilistic classification based on feature independence assumptions</p>
+                </div>
+                <div class="capability-card">
+                    <h4>Support Vector Machines</h4>
+                    <p>Finding optimal decision boundaries in high-dimensional space</p>
+                </div>
+            </div>
+
+            <h3>Deep Learning Revolution</h3>
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>LSTM/GRU</h4>
+                    <p>Memory-based models handling sequential data and long-term dependencies</p>
+                </div>
+                <div class="capability-card">
+                    <h4>Attention Mechanisms</h4>
+                    <p>BERT, GPT - focusing on relevant parts of input for better understanding</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Current GenAI Model Formula -->
+        <div class="slide">
+            <h2>Modern GenAI: The Complete Formula</h2>
+            <div style="text-align: center; font-size: 1.8em; margin: 40px 0; color: #2c3e50;">
+                <strong>Data + Architecture + Training + Post-Training + Instructions = Capable AI</strong>
+            </div>
+
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <h4>📊 Data</h4>
+                    <p>Massive, diverse, high-quality datasets</p>
+                </div>
+                <div class="tech-item">
+                    <h4>🏗️ Architecture</h4>
+                    <p>Transformer networks with attention</p>
+                </div>
+                <div class="tech-item">
+                    <h4>🎯 Training</h4>
+                    <p>Self-supervised learning on text prediction</p>
+                </div>
+                <div class="tech-item">
+                    <h4>⚡ Post-Training</h4>
+                    <p>RLHF, fine-tuning, alignment</p>
+                </div>
+                <div class="tech-item">
+                    <h4>📋 Instructions</h4>
+                    <p>System prompts and context</p>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Result:</strong> Models that understand context, follow instructions, and adapt to various tasks without task-specific training.</p>
+            </div>
+        </div>
+
+        <!-- Slide 8: Training Tasks Deep Dive -->
+        <div class="slide">
+            <h2>Training Methodologies</h2>
+            
+            <h3>Pre-Training: Learning Language</h3>
+            <ul>
+                <li><strong>Next Token Prediction:</strong> Learning patterns by predicting what comes next</li>
+                <li><strong>Masked Language Modeling:</strong> Understanding context by filling in blanks</li>
+                <li><strong>Scale:</strong> Billions of parameters, trillions of tokens</li>
+            </ul>
+
+            <h3>Post-Training: Alignment & Safety</h3>
+            <ul>
+                <li><strong>Supervised Fine-Tuning:</strong> Learning from human-written examples</li>
+                <li><strong>RLHF:</strong> Reinforcement learning from human feedback</li>
+                <li><strong>Constitutional AI:</strong> Self-improvement through principle-based training</li>
+            </ul>
+
+            <div class="difficulty-box">
+                <h4>🎯 Business Implication</h4>
+                <p>This multi-stage training creates models that are both capable and safe, but requires significant computational resources and expertise.</p>
+            </div>
+        </div>
+
+        <!-- Slide 9: Instruction Following & Context -->
+        <div class="slide">
+            <h2>The Power of Instructions & Context</h2>
+            
+            <div class="feature-comparison">
+                <div class="comparison-column">
+                    <h4 style="background: #e8f5e8; color: #2d5a2d;">System Instructions</h4>
+                    <ul>
+                        <li>Define model behavior and personality</li>
+                        <li>Set safety guidelines and boundaries</li>
+                        <li>Specify output format and style</li>
+                        <li>Enable role-specific expertise</li>
+                    </ul>
+                </div>
+                <div class="comparison-column">
+                    <h4 style="background: #e8f0ff; color: #2d4a5a;">Context Window</h4>
+                    <ul>
+                        <li>Recent conversation history</li>
+                        <li>Relevant documents and data</li>
+                        <li>Examples and demonstrations</li>
+                        <li>Dynamic information retrieval</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Breakthrough Capability:</strong> Same model can be a coding assistant, legal advisor, creative writer, or data analyst - all through different instructions and context.</p>
+            </div>
+
+            <h3>Business Applications</h3>
+            <ul>
+                <li>Customer service agents with company knowledge</li>
+                <li>Technical documentation assistants</li>
+                <li>Personalized content generation</li>
+                <li>Domain-specific analysis tools</li>
+            </ul>
+        </div>
+
+        <!-- Slide 10: Beyond Text - Multimodal Capabilities -->
+        <div class="slide">
+            <h2>Expanding Beyond Text: Multimodal AI</h2>
+            
+            <div class="multimodal-grid">
+                <div class="modal-card">
+                    <h4>🖼️ Vision</h4>
+                    <p>Image understanding, OCR, visual question answering, diagram analysis</p>
+                </div>
+                <div class="modal-card">
+                    <h4>🎵 Audio</h4>
+                    <p>Speech recognition, music analysis, sound classification, voice synthesis</p>
+                </div>
+                <div class="modal-card">
+                    <h4>🎥 Video</h4>
+                    <p>Scene understanding, action recognition, temporal analysis, content moderation</p>
+                </div>
+            </div>
+
+            <h3>How It Works: Same Principles, Different Inputs</h3>
+            <ul>
+                <li><strong>Images:</strong> Convert pixels to tokens through vision transformers</li>
+                <li><strong>Audio:</strong> Transform sound waves into spectrograms and embeddings</li>
+                <li><strong>Video:</strong> Process frame sequences with temporal attention</li>
+            </ul>
+
+            <div class="highlight">
+                <p><strong>Unified Architecture:</strong> Modern models use the same transformer architecture across all modalities, enabling seamless multimodal understanding.</p>
+            </div>
+        </div>
+
+        <!-- Slide 11: Vision Models in Practice -->
+        <div class="slide">
+            <h2>Computer Vision: From Pixels to Understanding</h2>
+            
+            <h3>Core Vision Capabilities</h3>
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>🔍 Object Detection</h4>
+                    <p>Identifying and locating objects in images with bounding boxes and confidence scores</p>
+                </div>
+                <div class="capability-card">
+                    <h4>📖 OCR & Document Analysis</h4>
+                    <p>Extracting text from images, understanding document structure and layout</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🎨 Visual Question Answering</h4>
+                    <p>Answering questions about image content, understanding visual context</p>
+                </div>
+                <div class="capability-card">
+                    <h4>📊 Chart & Diagram Analysis</h4>
+                    <p>Understanding data visualizations, extracting insights from graphs and charts</p>
+                </div>
+            </div>
+
+            <h3>Business Applications</h3>
+            <ul>
+                <li>Automated quality control in manufacturing</li>
+                <li>Medical image analysis and diagnostics</li>
+                <li>Retail inventory management and pricing</li>
+                <li>Document processing and digitization</li>
+            </ul>
+        </div>
+
+        <!-- Slide 12: Audio & Speech Processing -->
+        <div class="slide">
+            <h2>Audio Intelligence: Beyond Speech Recognition</h2>
+            
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>🎤 Speech-to-Text</h4>
+                    <p>High-accuracy transcription with punctuation, speaker identification, and multiple languages</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🔊 Text-to-Speech</h4>
+                    <p>Natural voice synthesis with emotion, accent, and style control</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🎼 Audio Analysis</h4>
+                    <p>Music classification, sound event detection, acoustic scene analysis</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🗣️ Voice Assistants</h4>
+                    <p>Natural conversation interfaces with context awareness and personality</p>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Technical Innovation:</strong> Whisper-class models achieve human-level accuracy across 100+ languages, while modern TTS creates indistinguishable synthetic voices.</p>
+            </div>
+
+            <h3>Enterprise Use Cases</h3>
+            <ul>
+                <li>Meeting transcription and summarization</li>
+                <li>Customer service call analysis</li>
+                <li>Accessibility tools for hearing impaired</li>
+                <li>Multilingual content localization</li>
+            </ul>
+        </div>
+
+        <!-- Slide 13: Integration Challenges & Solutions -->
+        <div class="slide">
+            <h2>Real-World Implementation Challenges</h2>
+            
+            <h3>Technical Challenges</h3>
+            <div class="difficulty-box">
+                <h4>⚡ Performance & Scale</h4>
+                <ul>
+                    <li>Latency requirements for real-time applications</li>
+                    <li>Cost optimization for high-volume usage</li>
+                    <li>Model size vs. accuracy trade-offs</li>
+                </ul>
+            </div>
+
+            <div class="difficulty-box">
+                <h4>🔒 Security & Privacy</h4>
+                <ul>
+                    <li>Data protection and compliance (GDPR, HIPAA)</li>
+                    <li>Preventing data leakage and prompt injection</li>
+                    <li>Model alignment and safety measures</li>
+                </ul>
+            </div>
+
+            <h3>Solution Strategies</h3>
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>🛠️ Tool Integration</h4>
+                    <p>Connecting models to databases, APIs, and external systems for real-time data</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🎯 Fine-Tuning</h4>
+                    <p>Adapting models to specific domains and use cases for better performance</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 14: Future Capabilities & Roadmap -->
+        <div class="slide">
+            <h2>The Future of Model Capabilities</h2>
+            
+            <h3>Emerging Capabilities</h3>
+            <ul>
+                <li><strong>Agentic AI:</strong> Models that can plan, execute, and iterate on complex tasks</li>
+                <li><strong>Scientific Reasoning:</strong> Advanced mathematical and scientific problem solving</li>
+                <li><strong>Long-term Memory:</strong> Persistent context across sessions and interactions</li>
+                <li><strong>Embodied AI:</strong> Integration with robotics and physical world interaction</li>
+            </ul>
+
+            <h3>Technical Advancements</h3>
+            <div class="capability-grid">
+                <div class="capability-card">
+                    <h4>🧠 Reasoning</h4>
+                    <p>Chain-of-thought, tree search, and multi-step problem solving</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🔗 Tool Use</h4>
+                    <p>Dynamic API discovery, code execution, and system integration</p>
+                </div>
+                <div class="capability-card">
+                    <h4>📚 Knowledge</h4>
+                    <p>Real-time learning, knowledge updating, and fact verification</p>
+                </div>
+                <div class="capability-card">
+                    <h4>🤝 Collaboration</h4>
+                    <p>Multi-agent systems, human-AI teaming, and workflow automation</p>
+                </div>
+            </div>
+
+            <div class="highlight">
+                <p><strong>Strategic Implication:</strong> We're moving from single-task models to general-purpose AI agents that can handle complex, multi-step business processes.</p>
+            </div>
+        </div>
+
+        <!-- Slide 15: Strategic Recommendations -->
+        <div class="slide">
+            <h2>Strategic Recommendations for Leadership</h2>
+            
+            <h3>🎯 Immediate Actions (0-6 months)</h3>
+            <ul>
+                <li>Audit current AI use cases and identify quick wins</li>
+                <li>Establish AI governance and safety protocols</li>
+                <li>Pilot text-based automation in customer service and document processing</li>
+                <li>Invest in employee training and AI literacy programs</li>
+            </ul>
+
+            <h3>📈 Medium-term Strategy (6-18 months)</h3>
+            <ul>
+                <li>Integrate multimodal capabilities for richer data analysis</li>
+                <li>Build custom fine-tuned models for domain-specific tasks</li>
+                <li>Develop AI-human collaboration workflows</li>
+                <li>Create centers of excellence for AI development</li>
+            </ul>
+
+            <h3>🚀 Long-term Vision (18+ months)</h3>
+            <ul>
+                <li>Deploy agentic AI for complex business process automation</li>
+                <li>Build competitive moats through proprietary AI capabilities</li>
+                <li>Explore new business models enabled by AI</li>
+                <li>Lead industry transformation through AI innovation</li>
+            </ul>
+
+            <div class="highlight">
+                <p><strong>Key Takeaway:</strong> Success requires understanding both capabilities and limitations, then building systems that leverage AI strengths while mitigating weaknesses through human oversight and tool integration.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="btn" id="prevBtn" onclick="changeSlide(-1)">← Previous</button>
+        <button class="btn" id="nextBtn" onclick="changeSlide(1)">Next →</button>
+    </div>
+
+    <script>
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        document.getElementById('totalSlides').textContent = totalSlides;
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[index].classList.add('active');
+            
+            document.getElementById('currentSlide').textContent = index + 1;
+            
+            // Update button states
+            document.getElementById('prevBtn').disabled = index === 0;
+            document.getElementById('nextBtn').disabled = index === totalSlides - 1;
+        }
+
+        function changeSlide(direction) {
+            currentSlideIndex += direction;
+            if (currentSlideIndex < 0) currentSlideIndex = 0;
+            if (currentSlideIndex >= totalSlides) currentSlideIndex = totalSlides - 1;
+            showSlide(currentSlideIndex);
+        }
+
+        // Keyboard navigation
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+            if (e.key === 'ArrowRight') changeSlide(1);
+        });
+
+        // Initialize
+        showSlide(0);
+    </script>
+</body>
+</html>
