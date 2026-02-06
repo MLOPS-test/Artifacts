@@ -1,0 +1,201 @@
+feedback_id,customer_id,product_id,region,customer_age,customer_gender,product_category,product_price,rating,feedback_text,sentiment
+1,CUST1001,PROD501,East,39,Male,Beauty,264.8,2,Meets expectations,Neutral
+2,CUST1002,PROD502,West,59,Male,Clothing,2539.85,1,Poor quality product,Negative
+3,CUST1003,PROD503,South,23,Female,Home Appliances,2640.85,3,Average experience,Neutral
+4,CUST1004,PROD504,Central,50,Male,Beauty,1560.16,2,Decent quality for the price,Neutral
+5,CUST1005,PROD505,South,65,Female,Home Appliances,1277.85,1,Bad experience overall,Negative
+6,CUST1006,PROD506,Central,27,Male,Clothing,943.37,1,Stopped working quickly,Negative
+7,CUST1007,PROD507,East,61,Male,Sports,1507.68,4,"Excellent product, very satisfied",Positive
+8,CUST1008,PROD508,East,54,Female,Clothing,996.82,4,Loved the quality and performance,Positive
+9,CUST1009,PROD509,Central,65,Male,Home Appliances,3811.23,4,Very happy with this purchase,Positive
+10,CUST1010,PROD510,West,64,Male,Electronics,643.84,5,Great value for money,Positive
+11,CUST1011,PROD511,East,20,Female,Clothing,4808.09,5,Very happy with this purchase,Positive
+12,CUST1012,PROD512,Central,31,Male,Electronics,2420.38,4,"Excellent product, very satisfied",Positive
+13,CUST1013,PROD513,East,18,Male,Home Appliances,2602.21,3,Average experience,Neutral
+14,CUST1014,PROD514,Central,34,Other,Clothing,2381.84,5,Great value for money,Positive
+15,CUST1015,PROD515,East,36,Female,Sports,2570.47,4,Loved the quality and performance,Positive
+16,CUST1016,PROD516,North,40,Male,Sports,3232.51,4,Great value for money,Positive
+17,CUST1017,PROD517,West,26,Other,Books,2531.71,5,Highly recommend this product,Positive
+18,CUST1018,PROD518,Central,28,Female,Home Appliances,4101.45,1,Not worth the money,Negative
+19,CUST1019,PROD519,Central,43,Male,Books,1905.32,5,Very happy with this purchase,Positive
+20,CUST1020,PROD520,East,35,Other,Beauty,1106.27,2,Poor quality product,Negative
+21,CUST1021,PROD521,Central,57,Male,Clothing,2256.51,1,Not worth the money,Negative
+22,CUST1022,PROD522,East,54,Female,Books,4344.27,2,Very disappointed,Negative
+23,CUST1023,PROD523,North,57,Female,Home Appliances,4983.96,2,Decent quality for the price,Neutral
+24,CUST1024,PROD524,South,45,Other,Beauty,3704.4,1,Stopped working quickly,Negative
+25,CUST1025,PROD525,North,49,Male,Beauty,3141.65,1,Stopped working quickly,Negative
+26,CUST1026,PROD526,North,34,Male,Beauty,4779.76,3,Meets expectations,Neutral
+27,CUST1027,PROD527,Central,20,Other,Sports,967.25,4,"Excellent product, very satisfied",Positive
+28,CUST1028,PROD528,West,40,Male,Beauty,3476.39,2,"Not bad, not great",Neutral
+29,CUST1029,PROD529,South,47,Female,Home Appliances,2530.23,5,"Excellent product, very satisfied",Positive
+30,CUST1030,PROD530,West,30,Female,Clothing,4845.71,2,Poor quality product,Negative
+31,CUST1031,PROD531,South,62,Female,Sports,3495.47,4,"Excellent product, very satisfied",Positive
+32,CUST1032,PROD532,East,21,Other,Beauty,2211.41,1,Stopped working quickly,Negative
+33,CUST1033,PROD533,North,36,Female,Books,1432.66,2,Product is okay,Neutral
+34,CUST1034,PROD534,South,37,Other,Sports,4604.88,4,Loved the quality and performance,Positive
+35,CUST1035,PROD535,Central,29,Male,Beauty,4762.09,2,Decent quality for the price,Neutral
+36,CUST1036,PROD536,Central,35,Male,Clothing,2641.43,2,Product is okay,Neutral
+37,CUST1037,PROD537,East,34,Other,Books,3453.79,1,Very disappointed,Negative
+38,CUST1038,PROD538,East,18,Male,Sports,3343.1,1,Not worth the money,Negative
+39,CUST1039,PROD539,South,64,Female,Electronics,2727.34,4,Very happy with this purchase,Positive
+40,CUST1040,PROD540,West,43,Female,Electronics,4168.62,3,Product is okay,Neutral
+41,CUST1041,PROD541,Central,24,Female,Electronics,2562.67,2,Decent quality for the price,Neutral
+42,CUST1042,PROD542,East,27,Female,Clothing,1358.17,2,Decent quality for the price,Neutral
+43,CUST1043,PROD543,North,54,Male,Home Appliances,1884.15,3,"Not bad, not great",Neutral
+44,CUST1044,PROD544,West,19,Female,Sports,4416.58,3,Average experience,Neutral
+45,CUST1045,PROD545,East,48,Other,Electronics,3852.1,1,Not worth the money,Negative
+46,CUST1046,PROD546,Central,65,Male,Clothing,4390.9,2,Stopped working quickly,Negative
+47,CUST1047,PROD547,West,59,Other,Electronics,443.87,2,Product is okay,Neutral
+48,CUST1048,PROD548,West,57,Male,Sports,1606.98,1,Not worth the money,Negative
+49,CUST1049,PROD549,Central,44,Female,Clothing,4867.09,5,Great value for money,Positive
+50,CUST1050,PROD550,South,20,Male,Clothing,3220.01,5,Very happy with this purchase,Positive
+51,CUST1051,PROD551,Central,41,Other,Beauty,479.22,5,Very happy with this purchase,Positive
+52,CUST1052,PROD552,Central,46,Male,Clothing,2859.47,5,Highly recommend this product,Positive
+53,CUST1053,PROD553,West,21,Other,Sports,4289.28,1,Not worth the money,Negative
+54,CUST1054,PROD554,South,59,Male,Books,1536.97,4,Highly recommend this product,Positive
+55,CUST1055,PROD555,West,53,Other,Beauty,3199.91,2,Not worth the money,Negative
+56,CUST1056,PROD556,Central,55,Other,Home Appliances,3345.2,2,Meets expectations,Neutral
+57,CUST1057,PROD557,East,27,Other,Books,3998.11,3,Product is okay,Neutral
+58,CUST1058,PROD558,East,24,Other,Books,4181.22,4,Very happy with this purchase,Positive
+59,CUST1059,PROD559,Central,59,Male,Sports,2631.02,2,Stopped working quickly,Negative
+60,CUST1060,PROD560,Central,49,Other,Clothing,1384.22,3,Meets expectations,Neutral
+61,CUST1061,PROD561,North,32,Male,Beauty,4801.71,5,Very happy with this purchase,Positive
+62,CUST1062,PROD562,North,63,Other,Electronics,1338.28,5,Highly recommend this product,Positive
+63,CUST1063,PROD563,West,24,Female,Home Appliances,2720.24,1,Not worth the money,Negative
+64,CUST1064,PROD564,East,65,Female,Beauty,708.89,3,Decent quality for the price,Neutral
+65,CUST1065,PROD565,Central,43,Other,Sports,4808.06,4,Loved the quality and performance,Positive
+66,CUST1066,PROD566,Central,40,Other,Sports,2704.3,1,Very disappointed,Negative
+67,CUST1067,PROD567,West,52,Female,Clothing,4225.49,3,Product is okay,Neutral
+68,CUST1068,PROD568,South,47,Male,Electronics,3919.25,5,"Excellent product, very satisfied",Positive
+69,CUST1069,PROD569,Central,52,Female,Clothing,4129.59,2,Decent quality for the price,Neutral
+70,CUST1070,PROD570,Central,55,Female,Home Appliances,883.1,3,Product is okay,Neutral
+71,CUST1071,PROD571,East,59,Female,Sports,3339.41,2,Poor quality product,Negative
+72,CUST1072,PROD572,Central,22,Male,Beauty,1478.5,2,Decent quality for the price,Neutral
+73,CUST1073,PROD573,West,64,Female,Home Appliances,341.48,3,Product is okay,Neutral
+74,CUST1074,PROD574,East,58,Female,Home Appliances,3218.24,3,Product is okay,Neutral
+75,CUST1075,PROD575,East,35,Other,Home Appliances,4947.71,5,Very happy with this purchase,Positive
+76,CUST1076,PROD576,North,24,Female,Beauty,3151.14,2,Stopped working quickly,Negative
+77,CUST1077,PROD577,North,35,Male,Clothing,2435.25,3,Product is okay,Neutral
+78,CUST1078,PROD578,North,61,Female,Books,2894.76,1,Very disappointed,Negative
+79,CUST1079,PROD579,East,32,Other,Sports,4515.83,5,"Excellent product, very satisfied",Positive
+80,CUST1080,PROD580,East,65,Male,Books,1715.82,2,"Not bad, not great",Neutral
+81,CUST1081,PROD581,East,22,Male,Sports,3776.92,1,Poor quality product,Negative
+82,CUST1082,PROD582,East,45,Other,Books,4786.69,2,Product is okay,Neutral
+83,CUST1083,PROD583,East,24,Female,Home Appliances,4448.52,2,Average experience,Neutral
+84,CUST1084,PROD584,West,36,Male,Beauty,599.49,4,Great value for money,Positive
+85,CUST1085,PROD585,North,42,Male,Sports,3040.67,1,Very disappointed,Negative
+86,CUST1086,PROD586,South,61,Male,Electronics,3956.45,4,"Excellent product, very satisfied",Positive
+87,CUST1087,PROD587,South,64,Female,Sports,284.72,3,"Not bad, not great",Neutral
+88,CUST1088,PROD588,North,65,Other,Home Appliances,2452.36,2,Average experience,Neutral
+89,CUST1089,PROD589,East,18,Female,Electronics,465.52,3,Decent quality for the price,Neutral
+90,CUST1090,PROD590,Central,23,Other,Beauty,1355.67,4,Great value for money,Positive
+91,CUST1091,PROD591,South,33,Female,Clothing,2456.32,1,Poor quality product,Negative
+92,CUST1092,PROD592,West,28,Other,Home Appliances,2740.22,2,Poor quality product,Negative
+93,CUST1093,PROD593,South,26,Female,Books,3468.22,1,Not worth the money,Negative
+94,CUST1094,PROD594,West,62,Male,Home Appliances,2552.35,5,Great value for money,Positive
+95,CUST1095,PROD595,South,61,Other,Sports,3735.15,4,Highly recommend this product,Positive
+96,CUST1096,PROD596,West,36,Other,Electronics,3909.54,2,Decent quality for the price,Neutral
+97,CUST1097,PROD597,West,35,Other,Clothing,2460.61,4,Loved the quality and performance,Positive
+98,CUST1098,PROD598,East,21,Female,Books,879.02,5,Great value for money,Positive
+99,CUST1099,PROD599,South,18,Male,Clothing,4940.72,2,Stopped working quickly,Negative
+100,CUST1100,PROD600,Central,30,Other,Books,2855.28,5,Loved the quality and performance,Positive
+101,CUST1101,PROD601,West,46,Female,Home Appliances,3420.78,1,Stopped working quickly,Negative
+102,CUST1102,PROD602,West,39,Male,Electronics,982.45,2,Average experience,Neutral
+103,CUST1103,PROD603,East,26,Male,Clothing,3819.71,3,"Not bad, not great",Neutral
+104,CUST1104,PROD604,North,46,Male,Electronics,1716.31,1,Poor quality product,Negative
+105,CUST1105,PROD605,South,48,Male,Electronics,4033.34,2,Very disappointed,Negative
+106,CUST1106,PROD606,North,32,Female,Clothing,2873.42,2,Very disappointed,Negative
+107,CUST1107,PROD607,East,19,Male,Home Appliances,1902.23,2,Bad experience overall,Negative
+108,CUST1108,PROD608,South,49,Other,Home Appliances,3080.41,3,Meets expectations,Neutral
+109,CUST1109,PROD609,West,29,Male,Clothing,806.86,1,Stopped working quickly,Negative
+110,CUST1110,PROD610,South,36,Male,Clothing,4611.66,2,"Not bad, not great",Neutral
+111,CUST1111,PROD611,North,49,Other,Clothing,3170.78,2,Poor quality product,Negative
+112,CUST1112,PROD612,South,19,Male,Books,4569.01,5,Highly recommend this product,Positive
+113,CUST1113,PROD613,West,29,Other,Beauty,1642.21,2,Decent quality for the price,Neutral
+114,CUST1114,PROD614,North,41,Other,Sports,383.69,1,Poor quality product,Negative
+115,CUST1115,PROD615,West,62,Female,Electronics,1858.09,1,Very disappointed,Negative
+116,CUST1116,PROD616,Central,36,Male,Books,4007.6,4,Loved the quality and performance,Positive
+117,CUST1117,PROD617,North,20,Female,Beauty,3408.88,4,Very happy with this purchase,Positive
+118,CUST1118,PROD618,North,44,Female,Clothing,3096.94,1,Poor quality product,Negative
+119,CUST1119,PROD619,West,34,Female,Electronics,4411.44,1,Poor quality product,Negative
+120,CUST1120,PROD620,West,59,Male,Books,3070.98,2,Poor quality product,Negative
+121,CUST1121,PROD621,Central,52,Other,Beauty,1225.82,2,Very disappointed,Negative
+122,CUST1122,PROD622,West,63,Male,Clothing,4930.62,2,Very disappointed,Negative
+123,CUST1123,PROD623,North,49,Male,Clothing,1437.3,2,Not worth the money,Negative
+124,CUST1124,PROD624,East,30,Male,Clothing,4406.54,1,Stopped working quickly,Negative
+125,CUST1125,PROD625,Central,48,Male,Books,4911.77,1,Poor quality product,Negative
+126,CUST1126,PROD626,East,38,Other,Electronics,240.18,5,Great value for money,Positive
+127,CUST1127,PROD627,Central,19,Female,Electronics,3922.36,1,Bad experience overall,Negative
+128,CUST1128,PROD628,North,50,Female,Sports,4226.2,1,Stopped working quickly,Negative
+129,CUST1129,PROD629,South,22,Other,Clothing,1033.75,1,Poor quality product,Negative
+130,CUST1130,PROD630,South,30,Male,Beauty,3175.1,2,Decent quality for the price,Neutral
+131,CUST1131,PROD631,South,46,Female,Clothing,611.82,1,Bad experience overall,Negative
+132,CUST1132,PROD632,Central,38,Other,Sports,2075.74,5,"Excellent product, very satisfied",Positive
+133,CUST1133,PROD633,East,41,Other,Home Appliances,4756.97,1,Not worth the money,Negative
+134,CUST1134,PROD634,North,22,Female,Books,1111.49,2,Product is okay,Neutral
+135,CUST1135,PROD635,East,29,Male,Electronics,639.79,2,Not worth the money,Negative
+136,CUST1136,PROD636,South,55,Other,Clothing,2630.18,2,Product is okay,Neutral
+137,CUST1137,PROD637,Central,22,Other,Electronics,2457.69,1,Bad experience overall,Negative
+138,CUST1138,PROD638,East,21,Female,Books,2245.71,4,Highly recommend this product,Positive
+139,CUST1139,PROD639,South,39,Female,Clothing,4618.23,2,"Not bad, not great",Neutral
+140,CUST1140,PROD640,East,44,Other,Clothing,4431.47,4,Very happy with this purchase,Positive
+141,CUST1141,PROD641,East,20,Other,Books,4230.56,2,Very disappointed,Negative
+142,CUST1142,PROD642,West,38,Other,Clothing,4754.76,3,Meets expectations,Neutral
+143,CUST1143,PROD643,West,24,Male,Beauty,2576.73,1,Stopped working quickly,Negative
+144,CUST1144,PROD644,South,63,Other,Books,214.68,2,Stopped working quickly,Negative
+145,CUST1145,PROD645,Central,52,Other,Clothing,4608.91,2,Meets expectations,Neutral
+146,CUST1146,PROD646,West,27,Other,Home Appliances,595.39,1,Poor quality product,Negative
+147,CUST1147,PROD647,West,34,Female,Electronics,1925.67,2,"Not bad, not great",Neutral
+148,CUST1148,PROD648,South,46,Female,Electronics,1396.66,5,Very happy with this purchase,Positive
+149,CUST1149,PROD649,East,61,Male,Sports,302.35,2,Product is okay,Neutral
+150,CUST1150,PROD650,West,58,Male,Sports,2140.48,3,Decent quality for the price,Neutral
+151,CUST1151,PROD651,East,50,Male,Electronics,4413.0,2,Meets expectations,Neutral
+152,CUST1152,PROD652,East,34,Other,Beauty,4326.75,4,Highly recommend this product,Positive
+153,CUST1153,PROD653,Central,19,Other,Beauty,365.97,5,"Excellent product, very satisfied",Positive
+154,CUST1154,PROD654,North,27,Other,Books,360.6,1,Not worth the money,Negative
+155,CUST1155,PROD655,West,18,Female,Electronics,1236.25,4,Loved the quality and performance,Positive
+156,CUST1156,PROD656,North,38,Other,Clothing,574.91,5,Loved the quality and performance,Positive
+157,CUST1157,PROD657,South,46,Male,Books,4620.41,4,Great value for money,Positive
+158,CUST1158,PROD658,West,52,Female,Beauty,3920.51,4,Great value for money,Positive
+159,CUST1159,PROD659,North,45,Other,Books,2134.46,2,Poor quality product,Negative
+160,CUST1160,PROD660,North,57,Female,Home Appliances,400.86,2,Meets expectations,Neutral
+161,CUST1161,PROD661,West,48,Male,Home Appliances,3537.63,1,Very disappointed,Negative
+162,CUST1162,PROD662,East,28,Male,Sports,3763.6,2,Stopped working quickly,Negative
+163,CUST1163,PROD663,North,26,Female,Electronics,4504.89,2,Decent quality for the price,Neutral
+164,CUST1164,PROD664,Central,59,Other,Electronics,212.32,5,Loved the quality and performance,Positive
+165,CUST1165,PROD665,West,50,Male,Electronics,3950.03,5,Loved the quality and performance,Positive
+166,CUST1166,PROD666,West,24,Female,Beauty,3013.34,2,Bad experience overall,Negative
+167,CUST1167,PROD667,North,63,Female,Books,4278.68,3,Average experience,Neutral
+168,CUST1168,PROD668,East,37,Female,Beauty,1587.61,2,Decent quality for the price,Neutral
+169,CUST1169,PROD669,North,38,Male,Sports,813.27,3,Product is okay,Neutral
+170,CUST1170,PROD670,South,51,Female,Home Appliances,601.42,1,Stopped working quickly,Negative
+171,CUST1171,PROD671,North,26,Female,Clothing,3408.9,4,Great value for money,Positive
+172,CUST1172,PROD672,Central,40,Male,Home Appliances,2621.83,2,Decent quality for the price,Neutral
+173,CUST1173,PROD673,South,49,Female,Sports,2374.16,4,Highly recommend this product,Positive
+174,CUST1174,PROD674,North,59,Female,Beauty,309.11,5,Loved the quality and performance,Positive
+175,CUST1175,PROD675,Central,51,Other,Sports,2814.34,2,Not worth the money,Negative
+176,CUST1176,PROD676,North,31,Male,Electronics,3963.23,5,Very happy with this purchase,Positive
+177,CUST1177,PROD677,West,59,Male,Beauty,2504.92,1,Poor quality product,Negative
+178,CUST1178,PROD678,South,47,Other,Electronics,4788.25,5,Highly recommend this product,Positive
+179,CUST1179,PROD679,West,45,Other,Clothing,246.62,1,Poor quality product,Negative
+180,CUST1180,PROD680,West,37,Male,Sports,4200.42,4,Loved the quality and performance,Positive
+181,CUST1181,PROD681,East,33,Other,Sports,4632.53,5,"Excellent product, very satisfied",Positive
+182,CUST1182,PROD682,North,60,Other,Clothing,4286.21,1,Very disappointed,Negative
+183,CUST1183,PROD683,South,65,Male,Beauty,1145.23,4,"Excellent product, very satisfied",Positive
+184,CUST1184,PROD684,East,58,Male,Home Appliances,4385.31,5,Loved the quality and performance,Positive
+185,CUST1185,PROD685,West,56,Female,Clothing,1891.11,5,"Excellent product, very satisfied",Positive
+186,CUST1186,PROD686,South,29,Female,Books,2429.65,4,Highly recommend this product,Positive
+187,CUST1187,PROD687,North,50,Male,Beauty,2264.81,1,Not worth the money,Negative
+188,CUST1188,PROD688,Central,49,Female,Beauty,3819.05,2,Bad experience overall,Negative
+189,CUST1189,PROD689,West,65,Other,Electronics,1229.73,3,Average experience,Neutral
+190,CUST1190,PROD690,West,43,Male,Books,2524.1,4,Highly recommend this product,Positive
+191,CUST1191,PROD691,North,48,Other,Home Appliances,3913.55,2,Stopped working quickly,Negative
+192,CUST1192,PROD692,East,35,Male,Books,2496.42,2,Stopped working quickly,Negative
+193,CUST1193,PROD693,North,33,Male,Home Appliances,4165.41,2,Product is okay,Neutral
+194,CUST1194,PROD694,North,53,Other,Home Appliances,3732.29,4,Highly recommend this product,Positive
+195,CUST1195,PROD695,Central,30,Female,Books,4938.71,2,Decent quality for the price,Neutral
+196,CUST1196,PROD696,South,41,Male,Electronics,537.46,4,Great value for money,Positive
+197,CUST1197,PROD697,North,19,Female,Books,4154.47,1,Not worth the money,Negative
+198,CUST1198,PROD698,East,26,Other,Beauty,3336.64,2,Meets expectations,Neutral
+199,CUST1199,PROD699,South,26,Male,Home Appliances,2928.02,5,Loved the quality and performance,Positive
+200,CUST1200,PROD700,West,56,Other,Electronics,468.21,2,Stopped working quickly,Negative
