@@ -1,47 +1,47 @@
-incident_id,incident_date,incident_time,category,issue_type,description,channel,priority,status,resolution_type
-INC001,2026-03-01,08:15,Baggage,Lost Baggage,Baggage not found at arrival belt,Airport Desk,High,Resolved,AI Resolution
-INC002,2026-03-01,09:10,Baggage,Delayed Baggage,Baggage delayed by 6 hours,Mobile App,Medium,Resolved,Policy Update
-INC003,2026-03-01,10:30,Baggage,Damaged Baggage,Suitcase wheel broken,Airport Desk,High,Resolved,Human
-INC004,2026-03-02,11:45,Baggage,Wrong Baggage,Received another passenger bag,Airport Desk,High,Resolved,AI Resolution
-INC005,2026-03-02,13:20,Baggage,Overweight Charges,Charged extra for baggage weight,Call Center,Low,Resolved,Policy Update
-INC006,2026-03-02,15:10,Baggage,Missing Items,Items missing from baggage,Airport Desk,High,Unresolved,Human
-INC007,2026-03-03,07:50,Baggage,Delayed Baggage,Baggage not arrived with flight,Mobile App,Medium,Resolved,AI Resolution
-INC008,2026-03-03,09:30,Baggage,Lost Baggage,Baggage lost during transit,Airport Desk,High,Unresolved,Human
-INC009,2026-03-03,12:10,Baggage,Damaged Baggage,Broken luggage handle,Airport Desk,Medium,Resolved,AI Resolution
-INC010,2026-03-04,14:25,Baggage,Overweight Charges,Unexpected baggage fees,Mobile App,Low,Resolved,Policy Update
-INC011,2026-03-04,16:40,Baggage,Delayed Baggage,Baggage arrived late,Airport Desk,Medium,Resolved,AI Resolution
-INC012,2026-03-05,18:20,Baggage,Lost Baggage,Baggage missing at destination,Call Center,High,Unresolved,Human
-INC013,2026-03-05,20:00,Baggage,Wrong Baggage,Bag exchanged with another passenger,Airport Desk,Medium,Resolved,AI Resolution
-INC014,2026-03-06,06:30,Baggage,Missing Items,Missing valuables from bag,Airport Desk,High,Unresolved,Human
-INC015,2026-03-06,08:45,Baggage,Delayed Baggage,Baggage delayed overnight,Mobile App,Medium,Resolved,AI Resolution
-INC016,2026-03-01,07:20,Boarding Pass,Invalid QR Code,QR not scanning at gate,Airport Desk,High,Resolved,AI Resolution
-INC017,2026-03-01,08:50,Boarding Pass,Name Mismatch,Name mismatch on boarding pass,Call Center,High,Resolved,Human
-INC018,2026-03-02,10:10,Boarding Pass,Seat Issue,Wrong seat assigned,Mobile App,Medium,Resolved,AI Resolution
-INC019,2026-03-02,11:55,Boarding Pass,Duplicate Ticket,Duplicate boarding pass generated,Mobile App,Low,Resolved,Policy Update
-INC020,2026-03-03,13:15,Boarding Pass,Missing Pass,Boarding pass not generated,Airport Desk,High,Resolved,AI Resolution
-INC021,2026-03-03,15:30,Boarding Pass,Invalid QR Code,QR error at boarding,Airport Desk,Medium,Resolved,AI Resolution
-INC022,2026-03-04,17:00,Boarding Pass,Seat Issue,Seat double booked,Airport Desk,High,Unresolved,Human
-INC023,2026-03-04,18:45,Boarding Pass,Name Mismatch,Incorrect spelling on pass,Call Center,Medium,Resolved,Policy Update
-INC024,2026-03-05,20:10,Boarding Pass,Missing Pass,Pass not visible in app,Mobile App,Medium,Resolved,AI Resolution
-INC025,2026-03-05,21:30,Boarding Pass,Duplicate Ticket,Duplicate entry error,Mobile App,Low,Resolved,AI Resolution
-INC026,2026-03-06,06:50,Boarding Pass,Invalid QR Code,Scanner failure,Airport Desk,Medium,Resolved,AI Resolution
-INC027,2026-03-06,08:30,Boarding Pass,Seat Issue,Seat not assigned,Airport Desk,High,Resolved,Human
-INC028,2026-03-01,06:40,Check-in,Online Check-in Failure,Unable to check-in online,Mobile App,High,Resolved,AI Resolution
-INC029,2026-03-01,08:00,Check-in,Seat Selection Error,Seat selection not working,Mobile App,Medium,Resolved,AI Resolution
-INC030,2026-03-02,09:30,Check-in,Kiosk Failure,Kiosk not responding,Airport Desk,High,Resolved,Human
-INC031,2026-03-02,12:15,Check-in,Check-in Closed,Reached after check-in closed,Airport Desk,High,Resolved,Policy Update
-INC032,2026-03-03,14:00,Check-in,Online Check-in Failure,System error during check-in,Mobile App,Medium,Resolved,AI Resolution
-INC033,2026-03-03,16:25,Check-in,Seat Selection Error,Unable to change seat,Mobile App,Low,Resolved,AI Resolution
-INC034,2026-03-04,18:10,Check-in,Kiosk Failure,Kiosk screen frozen,Airport Desk,High,Resolved,Human
-INC035,2026-03-04,19:45,Check-in,Check-in Closed,Missed check-in deadline,Call Center,High,Unresolved,Human
-INC036,2026-03-05,21:10,Check-in,Online Check-in Failure,App crash during check-in,Mobile App,Medium,Resolved,AI Resolution
-INC037,2026-03-06,07:15,Check-in,Seat Selection Error,Seat unavailable,Mobile App,Low,Resolved,AI Resolution
-INC038,2026-03-06,09:00,Check-in,Kiosk Failure,Kiosk printer not working,Airport Desk,Medium,Resolved,Human
-INC039,2026-03-01,07:00,ID Proof,Invalid ID,ID not accepted at check-in,Airport Desk,High,Resolved,Policy Update
-INC040,2026-03-01,09:20,ID Proof,Name Mismatch,ID name mismatch,Call Center,High,Resolved,Human
-INC041,2026-03-02,11:00,ID Proof,Expired ID,Passenger ID expired,Airport Desk,High,Resolved,Policy Update
-INC042,2026-03-02,13:30,ID Proof,Missing ID,Passenger forgot ID,Airport Desk,High,Unresolved,Human
-INC043,2026-03-03,15:45,ID Proof,Invalid ID,Unsupported ID type,Airport Desk,Medium,Resolved,AI Resolution
-INC044,2026-03-04,17:20,ID Proof,Expired ID,Expired passport,Airport Desk,High,Resolved,Policy Update
-INC045,2026-03-05,19:00,ID Proof,Name Mismatch,Spelling mismatch in ID,Call Center,Medium,Resolved,AI Resolution
-INC046,2026-03-06,08:10,ID Proof,Missing ID,Lost ID before boarding,Airport Desk,High,Unresolved,Human
+incident_id,incident_date,incident_time,description,channel
+INC001,01-03-26,8:15,Baggage not found at arrival belt,Airport Desk
+INC002,01-03-26,9:10,Baggage delayed by 6 hours,Mobile App
+INC003,01-03-26,10:30,Suitcase wheel broken,Airport Desk
+INC004,02-03-26,11:45,Received another passenger bag,Airport Desk
+INC005,02-03-26,13:20,Charged extra for baggage weight,Call Center
+INC006,02-03-26,15:10,Items missing from baggage,Airport Desk
+INC007,03-03-26,7:50,Baggage not arrived with flight,Mobile App
+INC008,03-03-26,9:30,Baggage lost during transit,Airport Desk
+INC009,03-03-26,12:10,Broken luggage handle,Airport Desk
+INC010,04-03-26,14:25,Unexpected baggage fees,Mobile App
+INC011,04-03-26,16:40,Baggage arrived late,Airport Desk
+INC012,05-03-26,18:20,Baggage missing at destination,Call Center
+INC013,05-03-26,20:00,Bag exchanged with another passenger,Airport Desk
+INC014,06-03-26,6:30,Missing valuables from bag,Airport Desk
+INC015,06-03-26,8:45,Baggage delayed overnight,Mobile App
+INC016,01-03-26,7:20,QR not scanning at gate,Airport Desk
+INC017,01-03-26,8:50,Name mismatch on boarding pass,Call Center
+INC018,02-03-26,10:10,Wrong seat assigned,Mobile App
+INC019,02-03-26,11:55,Duplicate boarding pass generated,Mobile App
+INC020,03-03-26,13:15,Boarding pass not generated,Airport Desk
+INC021,03-03-26,15:30,QR error at boarding,Airport Desk
+INC022,04-03-26,17:00,Seat double booked,Airport Desk
+INC023,04-03-26,18:45,Incorrect spelling on pass,Call Center
+INC024,05-03-26,20:10,Pass not visible in app,Mobile App
+INC025,05-03-26,21:30,Duplicate entry error,Mobile App
+INC026,06-03-26,6:50,Scanner failure,Airport Desk
+INC027,06-03-26,8:30,Seat not assigned,Airport Desk
+INC028,01-03-26,6:40,Unable to check-in online,Mobile App
+INC029,01-03-26,8:00,Seat selection not working,Mobile App
+INC030,02-03-26,9:30,Kiosk not responding,Airport Desk
+INC031,02-03-26,12:15,Reached after check-in closed,Airport Desk
+INC032,03-03-26,14:00,System error during check-in,Mobile App
+INC033,03-03-26,16:25,Unable to change seat,Mobile App
+INC034,04-03-26,18:10,Kiosk screen frozen,Airport Desk
+INC035,04-03-26,19:45,Missed check-in deadline,Call Center
+INC036,05-03-26,21:10,App crash during check-in,Mobile App
+INC037,06-03-26,7:15,Seat unavailable,Mobile App
+INC038,06-03-26,9:00,Kiosk printer not working,Airport Desk
+INC039,01-03-26,7:00,ID not accepted at check-in,Airport Desk
+INC040,01-03-26,9:20,ID name mismatch,Call Center
+INC041,02-03-26,11:00,Passenger ID expired,Airport Desk
+INC042,02-03-26,13:30,Passenger forgot ID,Airport Desk
+INC043,03-03-26,15:45,Unsupported ID type,Airport Desk
+INC044,04-03-26,17:20,Expired passport,Airport Desk
+INC045,05-03-26,19:00,Spelling mismatch in ID,Call Center
+INC046,06-03-26,8:10,Lost ID before boarding,Airport Desk
