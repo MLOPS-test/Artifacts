@@ -1,0 +1,41 @@
+Product_ID,Product_Name,Category,Current_Stock,Reorder_Level,Supplier,Unit_Cost
+PRD-101,Samsung Galaxy S23,Electronics,120,50,TechWorld Pvt Ltd,48000
+PRD-102,Levi's Jeans,Clothing,85,40,FashionHub,2100
+PRD-103,LG Washing Machine,Home Appliances,30,30,HomeComfort Supplies,30000
+PRD-104,Basmati Rice 5kg,Grocery,300,100,FreshMart,380
+PRD-105,Wooden Dining Table,Furniture,15,20,WoodCraft Industries,14000
+PRD-106,A4 Notebook Pack,Stationery,200,80,OfficeEssentials,280
+PRD-107,Apple iPhone 15,Electronics,45,50,TechWorld Pvt Ltd,72000
+PRD-108,Nike Running Shoes,Clothing,60,40,FashionHub,4500
+PRD-109,Bosch Microwave,Home Appliances,25,30,HomeComfort Supplies,10000
+PRD-110,Tata Salt 1kg,Grocery,500,150,FreshMart,18
+PRD-111,Sofa Set 3+1+1,Furniture,8,20,WoodCraft Industries,38000
+PRD-112,Stapler Heavy Duty,Stationery,150,60,OfficeEssentials,200
+PRD-113,OnePlus Nord 3,Electronics,0,40,TechWorld Pvt Ltd,25000
+PRD-114,Woodland Boots,Clothing,18,30,FashionHub,3200
+PRD-115,Voltas AC 1.5 Ton,Home Appliances,12,25,HomeComfort Supplies,36000
+PRD-116,Amul Butter 500g,Grocery,180,80,FreshMart,230
+PRD-117,Office Chair,Furniture,40,30,WoodCraft Industries,7000
+PRD-118,Pen Set 10pcs,Stationery,350,100,OfficeEssentials,90
+PRD-119,Dell Laptop,Electronics,22,40,TechWorld Pvt Ltd,55000
+PRD-120,Saree Cotton,Clothing,75,50,FashionHub,1400
+PRD-121,Philips Air Fryer,Home Appliances,0,20,HomeComfort Supplies,7000
+PRD-122,Wheat Flour 10kg,Grocery,220,100,FreshMart,310
+PRD-123,Bookshelf Wooden,Furniture,35,25,WoodCraft Industries,5200
+PRD-124,Whiteboard Markers,Stationery,90,60,OfficeEssentials,140
+PRD-125,Sony Headphones,Electronics,55,40,TechWorld Pvt Ltd,3800
+PRD-126,Adidas T-Shirt,Clothing,100,50,FashionHub,950
+PRD-127,Samsung Refrigerator,Home Appliances,0,15,HomeComfort Supplies,40000
+PRD-128,Dettol Soap Pack,Grocery,260,120,FreshMart,360
+PRD-129,TV Cabinet,Furniture,10,20,WoodCraft Industries,9500
+PRD-130,Calculator Scientific,Stationery,45,40,OfficeEssentials,680
+PRD-131,Realme Watch,Electronics,5,30,TechWorld Pvt Ltd,2800
+PRD-132,Kurti Cotton,Clothing,80,50,FashionHub,750
+PRD-133,Cooking Oil 5L,Grocery,140,80,FreshMart,520
+PRD-134,Study Table,Furniture,28,25,WoodCraft Industries,4500
+PRD-135,File Organizer,Stationery,110,60,OfficeEssentials,250
+PRD-136,HP Printer,Electronics,0,20,TechWorld Pvt Ltd,10500
+PRD-137,Zara Dress,Clothing,14,30,FashionHub,3600
+PRD-138,Bajaj Mixer,Home Appliances,42,30,HomeComfort Supplies,3800
+PRD-139,Maggi Noodles Pack,Grocery,190,100,FreshMart,200
+PRD-140,Bed with Storage,Furniture,0,10,WoodCraft Industries,18000
