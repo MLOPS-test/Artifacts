@@ -19,7 +19,7 @@ INV-1017,2024-03-01,PRD-117,Office Chair,Furniture,South,2,8500,10,ravi.krishna@
 INV-1018,2024-03-05,PRD-118,Pen Set 10pcs,Stationery,East,8,120,0,shalini.dubey@hotmail.com
 INV-1019,2024-03-08,PRD-119,Dell Laptop,Electronics,West,1,65000,5,nitesh.agarwal@gmail.com
 INV-1020,2024-03-12,PRD-120,Saree Cotton,Clothing,Central,2,1800,8,usha.menon@gmail.com
-INV-1021,15/03/2024,PRD-121,Philips Air Fryer,Home Appliances,North,1,8500,5,vinod.tiwari@gmail.com
+INV-1021,2024-03-15,PRD-121,Philips Air Fryer,Home Appliances,North,1,8500,5,vinod.tiwari@gmail.com
 INV-1022,2024-03-18,PRD-122,Wheat Flour 10kg,Grocery,South,4,380,0,kamala.swamy@gmail.com
 INV-1023,2024-03-22,PRD-123,Bookshelf Wooden,Furniture,East,1,6500,8,prakash.nair@gmail.com
 INV-1024,2024-03-25,PRD-124,Whiteboard Markers,Stationery,West,6,180,0,rekha.verma@yahoo.com
@@ -35,7 +35,7 @@ INV-1033,2024-04-25,PRD-132,Kurti Cotton,CLOTHING ,East,3,950,5,parvati.devi@gma
 INV-1034,2024-04-28,PRD-103,LG Washing Machine,Home Appliances,West,1,35000,8,qureshi.khan@gmail.com
 INV-1035,2024-05-02,PRD-133,Cooking Oil 5L,Groceries,Central,3,650,0,rohini.chakraborty@gmail.com
 INV-1036,2024-05-05,PRD-134,Study Table,Furniture,North,1,5500,10,sachin.tendulkar@gmail.com
-INV-1037,05/05/2024,PRD-135,File Organizer,Stationery,South,4,320,0,tara.singh@gmail.com
+INV-1037,2024-05-05,PRD-135,File Organizer,Stationery,South,4,320,0,tara.singh@gmail.com
 INV-1038,2024-05-12,PRD-136,HP Printer,Electronics,East,1,12500,5,uma.shankar@gmail.com
 INV-1039,2024-05-15,PRD-137,Zara Dress,Clothing,West,2,4500,15,vanita.malhotra@gmail.com
 INV-1040,2024-05-18,PRD-138,Bajaj Mixer,Home Appliances,Central,1,4500,8,waseem.ali@gmail.com
@@ -83,7 +83,7 @@ INV-1081,2024-10-05,PRD-104,Basmati Rice 5kg,Grocery,North,4,450,0,deepak.chopra
 INV-1082,2024-10-08,PRD-105,Wooden Dining Table,Furniture,South,1,18000,12,elan.musk@gmail.com
 INV-1083,2024-10-12,PRD-106,A4 Notebook Pack,Stationery,East,7,350,0,fiona.apple@gmail.com
 INV-1084,2024-10-15,PRD-107,Apple iPhone 15,Electronics,West,2,80000,5,garima.saxena@gmail.com
-INV-1085,10/10/2024,PRD-108,Nike Running Shoes,Clothing,Central,3,5500,10,harsh.vardhan@gmail.com
+INV-1085,2024-10-10,PRD-108,Nike Running Shoes,Clothing,Central,3,5500,10,harsh.vardhan@gmail.com
 INV-1086,2024-10-22,PRD-109,Bosch Microwave,Home Appliances,North,1,12000,10,
 INV-1087,2024-10-25,PRD-110,Tata Salt 1kg,Grocery,South,10,25,0,isha.koppikar@gmail.com
 INV-1088,2024-10-28,PRD-111,Sofa Set 3+1+1,Furniture,East,1,45000,15,jagdish.prasad@gmail.com
@@ -227,7 +227,7 @@ INV-1221,2024-11-08,PRD-101,Samsung Galaxy S23,Electronics,West,1,55000,10,
 INV-1222,2024-12-18,PRD-126,Adidas T-Shirt,Clothing,Central,4,1200,5,kunal.kemmu@gmail.com
 INV-1223,2024-01-28,PRD-109,Bosch Microwave,Home Appliances,North,2,12000,10,lara.croft@gmail.com
 INV-1224,2024-02-22,PRD-133,Cooking Oil 5L,Grocery,South,3,650,0,milind.soman@gmail.com
-INV-1225,20/02/2024,PRD-119,Dell Laptop,Electronics,East,1,65000,5,nandita.das@gmail.com
+INV-1225,2024-02-20,PRD-119,Dell Laptop,Electronics,East,1,65000,5,nandita.das@gmail.com
 INV-1226,2024-03-28,PRD-114,Woodland Boots,Clothing,West,2,3800,10,o.henry@gmail.com
 INV-1227,2024-04-15,PRD-138,Bajaj Mixer,Home Appliances,Central,1,4500,8,pankaj.tripathi@gmail.com
 INV-1228,2024-05-12,PRD-122,Wheat Flour 10kg,Grocery,North,5,380,0,queen.victoria@gmail.com
